@@ -1,3 +1,4 @@
+
 [![Analytics](https://ga-beacon.appspot.com/UA-80536214-1/readme)](https://github.com/huanglizhuo/kotlin-in-chinese)
 
 2017.5.17
@@ -14,25 +15,9 @@ Expedia, Flipboard, Pinterest, Square 等公司都有在自家的项目中使用
 
 2017.3.8
 
-墙内地址跪了，只有 [gitbook](https://github.com/huanglizhuo/kotlin-in-chinese) 可以看了。
-
 Kotlin 1.1 正式发布，这次最令人振奋的莫过于协程的发布，有了协程就可以更优雅的完成异步编程了
 
 更多新特性请参看[what's new in kotlin 1.1](https://kotlinlang.org/docs/reference/whatsnew11.html)
-
-新特性的文档正在翻译中... 
-
-翻译时间并不是很充裕（qi shi shi lan）我会尽力的 :(
-
-2016.3.4
-
-~~gitbook 墙内访问速度很糟糕 现在有了 [墙内地址](http://kotlindoc.com/)啦 :)~~
-
-国内服务器由[掘金](http://gold.xitu.io)赞助
-
-稀土掘金：挖掘最优质的互联网技术 / 联合编辑每日精选内容 / 移动端优质阅读体验
-
-本书源码在 [github](https://github.com/huanglizhuo/kotlin-in-chinese) 
 
 [pd下载](https://www.gitbook.com/download/pdf/book/huanglizhuo/kotlin-in-chinese)  [ePub下载](https://www.gitbook.com/download/epub/book/huanglizhuo/kotlin-in-chinese)
 
@@ -70,7 +55,7 @@ Kotlin LOC (软件规模代码行) 如下图
 
 * [类和对象](ClassesAndObjects/README.md)
    * [类和继承](ClassesAndObjects/Classes-and-Inheritance.md)　
-   * [属性和字段](ClassesAndObjects/Properties-and-Filds.md)　
+   * [属性和字段](ClassesAndObjects/Properties-and-Fields.md)　
    * [接口](ClassesAndObjects/Interfaces.md) 
    * [可见性修饰词](ClassesAndObjects/Visibility-Modifiers.md) 
    * [扩展](ClassesAndObjects/Extensions.md) 
@@ -116,3 +101,5 @@ Kotlin LOC (软件规模代码行) 如下图
 * [FAQ](FAQ/README.md)
    * [与java对比](FAQ/Comparison2java.md) 
    * [与Scala对比](FAQ/Comparison2Scala.md) 
+
+

@@ -7,7 +7,7 @@ data class User(val name: String, val age: Int)
 
 编译器会自动根据主构造函数中声明的所有属性添加如下方法：
 
->`equals()`/`hashCode` 函数
+> `equals()`/`hashCode` 函数
 
 > `toString` 格式是 "User(name=john, age=42)"
 
@@ -28,11 +28,15 @@ data class User(val name: String, val age: Int)
 > 数据类不能是 abstract，open，sealed，或者 inner ；
 
 > 数据类不能继承其它的类（但可以实现接口）。
-
-
-
-> 在 JVM 中如果构造函数是无参的，则所有的属性必须有默认的值，(参看[Constructors](http://kotlinlang.org/docs/reference/classes.html#constructors));
 >
+> (在1.1之前)数据类只能实现接口。
+
+从1.1开始数据类可以继承其它类（参考 [Sealed classes](http://kotlinlang.org/docs/reference/sealed-classes.html) ）
+
+
+
+在 JVM 中如果构造函数是无参的，则所有的属性必须有默认的值，(参看[Constructors](http://kotlinlang.org/docs/reference/classes.html#constructors));
+
 > data class User(val name: String = "", val age: Int = 0)
 
 ### 复制
